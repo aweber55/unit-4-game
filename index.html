@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Counter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="assets/javascript/game.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 left label">
+                <h1>CrystalsCollector!</h1>
+            </div>
+
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-8 col-sm-8 left instructions">
+                <h5>You will be given a random number at the start of the game.</h5>
+                <br>
+                <h5>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
+                    total score.</h5>
+                <br>
+                <h5>You win the game by matching your total score to a random number, you lose the game if your total score goes
+                    about the random number.</h5>
+                <br>
+                <h5>The value of each crystal is hidden from you until you click on it.</h5>
+                <br>
+                <h5>Each time when the game starts, the game will change the values of each crystal.</h5>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-2 Number">
+                <br>
+                <h3>number:
+                    <span id="point"></span>
+                </h3>
+            </div>
+            <div class="col-sm-1"></div>
+            <div class="col-lg-2 scoreBoard" id="win-loss">
+                <h3>win:
+                    <span id="win"></span>
+                </h3>
+
+                <h3>loss:
+                    <span id="loss"></span>
+                </h3>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-10 pictures">
+                <img src="assets/images/red-crystal.png" id="red" class="rounded img-thumbnail" alt="red">
+                <img src="assets/images/blue-crystal.jpg" id="blue" class="rounded img-thumbnail" alt="blue">
+                <img src="assets/images/green-crystal.png" id="green" class="rounded img-thumbnail" alt="green">
+                <img src="assets/images/crystal_yellow.jpg" id="yellow" class="rounded img-thumbnail" alt="yellow">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-4 left final">
+                <h3 id="total-score">Your total score is:</h3>
+            </div>
+        </div>
+        <!-- <br> -->
+        <div class="row">
+            <div class="col-lg-4 left final">
+                <h2 id="score"></h2>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

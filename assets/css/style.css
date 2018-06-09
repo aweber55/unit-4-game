@@ -1,0 +1,97 @@
+h1 {
+    background-color: lightsteelblue;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+    font-size: 36px;
+    color: purple;
+    border-radius: 10%;
+    border: 1px royalblue solid;
+    text-shadow: 2px 2px white;
+}
+
+h5 {
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    color: lawngreen;
+}
+
+body {
+    background-image: url("../images/crystal+background.jpg");
+}
+
+.instructions {
+    background-color: #6b5b95;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10%;
+    border: darkgrey 3px solid;
+}
+
+.Number {
+    background-color: lightgreen;
+    color: blueviolet;
+    border-radius: 10%;
+    border: silver 3px solid;
+}
+
+.scoreBoard {
+    background-color: cornflowerblue;
+    border-radius: 10%;
+    border: silver 3px solid;
+}
+
+.img-thumbnail {
+    height: 120px;
+    width: 120px;
+}
+
+#red.img-thumbnail {
+    border: red 3px solid;
+}
+
+#blue.img-thumbnail {
+    border: blue 3px solid;
+}
+
+#green.img-thumbnail {
+    border: green 3px solid;
+}
+
+#yellow.img-thumbnail {
+    border: yellow 3px solid;
+}
+
+.final {
+    background-color: steelblue;
+    margin: 10px;
+    color: ivory;
+    border-radius: 100%;
+    text-align: center;
+    border: darkgrey 2px solid;
+}
+
+.pictures {
+    padding: 0;
+}
+
+.img-thumbnail:hover {
+    opacity: .8;
+    height: 125px;
+    width: 125px;
+    transform: skew(-1deg);
+}
+
+.label {
+    padding: 0;
+}
+
+#score {
+    padding: 30px;
+    font-size: 60px;
+    color: ivory;
+}
+
+#total-score {
+    padding: 5px 0px 5px 0px;
+}
