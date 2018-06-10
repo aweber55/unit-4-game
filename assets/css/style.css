@@ -50,16 +50,32 @@ body {
     border: red 3px solid;
 }
 
+#red.img-thumbnail:hover {
+    background-color: rgb(247, 177, 177);
+}
+
 #blue.img-thumbnail {
     border: blue 3px solid;
+}
+#blue.img-thumbnail:hover {
+    
+    background-color: rgb(177, 202, 247);
 }
 
 #green.img-thumbnail {
     border: green 3px solid;
 }
+#green.img-thumbnail:hover {
+    
+    background-color: rgb(199, 247, 177);
+}
 
 #yellow.img-thumbnail {
     border: yellow 3px solid;
+}
+#yellow.img-thumbnail:hover {
+    
+    background-color: rgb(234, 247, 177);
 }
 
 .final {
